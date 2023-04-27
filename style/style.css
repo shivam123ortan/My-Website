@@ -171,5 +171,24 @@ header {
     font-size: xx-large;
     display: flex;
     justify-content: space-around;
+    filter: grayscale(0.8);
 
+}
+
+/* Footer */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
 }
